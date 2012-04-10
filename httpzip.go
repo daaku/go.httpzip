@@ -1,11 +1,11 @@
 package httpzip
 
 import (
-	"fmt"
 	"archive/zip"
-	"net/http"
 	"bytes"
+	"fmt"
 	"io/ioutil"
+	"net/http"
 )
 
 func Read(res *http.Response) (*zip.Reader, error) {
