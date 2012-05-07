@@ -1,3 +1,5 @@
+// Package httpzip provides helpers to read zip files over HTTP and
+// work with them in memory.
 package httpzip
 
 import (
